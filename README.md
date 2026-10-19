@@ -63,6 +63,8 @@ cd lume-transcribe
 
 Depois, abra [http://localhost:5173](http://localhost:5173).
 
+Para um passo a passo completo de replicação, consulte o [Guia de replicação](docs/REPLICATION.md).
+
 ### Instalação manual
 
 ```bash
@@ -123,6 +125,17 @@ npm run test:backend
 ```
 
 O GitHub Actions executa essas verificações automaticamente a cada push e pull request.
+
+## Replicar e contribuir
+
+Qualquer pessoa pode criar uma cópia local, alterar o código e abrir um Pull Request. O projeto não depende de chaves de API: basta instalar Git, Node.js, Python e FFmpeg. Os modelos e arquivos enviados ficam fora do Git por meio do `.gitignore`.
+
+Consulte também:
+
+- [Guia de replicação](docs/REPLICATION.md)
+- [Changelog](CHANGELOG.md)
+- [Código de conduta](CODE_OF_CONDUCT.md)
+- [Como contribuir](CONTRIBUTING.md)
 
 ## Estrutura do projeto
 
